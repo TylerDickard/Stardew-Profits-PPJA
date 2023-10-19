@@ -78,7 +78,11 @@ function formatNumber(num) {
  * @return Number of harvests for the specified crop.
  */
 function harvests(cropID) {
-	var crop = seasons[options.season].crops[cropID];
+	if(options.mod == 0) {
+		var crop = seasons[options.season].crops[cropID];
+	} else if (options.mod == 1) {
+		var crop = ppjaCropAndVeggiesSeasons[options.season].crops[cropID];
+	}
 	var fertilizer = fertilizers[options.fertilizer];
 	// Tea blooms every day for the last 7 days of a season
 	var isTea = crop.name == "Tea Leaves";
@@ -342,15 +346,17 @@ function perDay(value) {
  */
 function fetchCrops() {
 	cropList = [];
-
-	var season = seasons[options.season];
-
+	if(options.mod == 0) {
+		var season = seasons[options.season];
+	} else if (options.mod == 1) {
+		var season = ppjaCropAndVeggiesSeasons[options.season];
+	}
 	for (var i = 0; i < season.crops.length; i++) {
-	    if ((options.seeds.pierre && season.crops[i].seeds.pierre != 0) ||
-	    	(options.seeds.joja && season.crops[i].seeds.joja != 0) ||
-	    	(options.seeds.special && season.crops[i].seeds.special != 0)) {
-	    	cropList.push(JSON.parse(JSON.stringify(season.crops[i])));
-	    	cropList[cropList.length - 1].id = i;
+		if ((options.seeds.pierre && season.crops[i].seeds.pierre != 0) ||
+			(options.seeds.joja && season.crops[i].seeds.joja != 0) ||
+			(options.seeds.special && season.crops[i].seeds.special != 0)) {
+			cropList.push(JSON.parse(JSON.stringify(season.crops[i])));
+			cropList[cropList.length - 1].id = i;
 		}
 	}
 }
@@ -1032,6 +1038,7 @@ function updateData() {
 
     options.season = parseInt(document.getElementById('select_season').value);
     const isGreenhouse = options.season === 4;
+	options.mod = parseInt(document.getElementById('select_mod').value);
 
 	options.produce = parseInt(document.getElementById('select_produce').value);
 

@@ -8,7 +8,7 @@ var ppjaSummerCrops = {
         "joja": 0,
         "special": 0,
         "specialLoc": "",
-        "specialUrl": ""
+        "specialUrl": "",
         },
         "growth": {
         "initial": 9,

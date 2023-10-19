@@ -95,25 +95,6 @@ var seasons = [
 			crops.tulip,
 			crops.ancientfruit,
 			crops.springseeds,
-			ppjaSpringCrops.cabbage,
-			ppjaSpringCrops.bamboo,
-			ppjaSpringCrops.basil,
-			ppjaSpringCrops.buckwheat,
-			ppjaSpringCrops.cactusflower,
-			ppjaSpringCrops.ginseng,
-			ppjaSpringCrops.licoriceroot,
-			ppjaSpringCrops.maguey,
-			ppjaSpringCrops.muskmellon,
-			ppjaSpringCrops.onion,
-			ppjaSpringCrops.parsley,
-			ppjaSpringCrops.passionfruit,
-			ppjaSpringCrops.rapeseedflower,
-			ppjaSpringCrops.redonion,
-			ppjaSpringCrops.shallot,
-			ppjaSpringCrops.shiitakemushroom,
-			ppjaSpringCrops.spinach,
-			ppjaSpringCrops.sugarbeet,
-			ppjaSpringCrops.sweetcanarymelon
 		]
 	},
 	{
@@ -138,35 +119,7 @@ var seasons = [
 			crops.sunflower,
 			crops.taroroot,
 			crops.summerseeds,
-			ppjaSpringCrops.bamboo,
-			ppjaSpringCrops.cactusflower,
-			ppjaSpringCrops.maguey,
-			ppjaSpringCrops.rapeseedflower,
-			ppjaSummerCrops.adzukibean,
-			ppjaSummerCrops.aloe,
-			ppjaSummerCrops.asparagus,
-			ppjaSummerCrops.blueagave,
-			ppjaSummerCrops.butternutsquash,
-			ppjaSummerCrops.cassava,
-			ppjaSummerCrops.chickpea,
-			ppjaSummerCrops.chives,
-			ppjaSummerCrops.cottonboll,
-			ppjaSummerCrops.cucumber,
-			ppjaSummerCrops.ginger,
-			ppjaSummerCrops.gooseberry,
-			ppjaSummerCrops.greenpeas,
-			ppjaSummerCrops.kiwi,
-			ppjaSummerCrops.lettuce,
-			ppjaSummerCrops.navybean,
-			ppjaSummerCrops.okra,
-			ppjaSummerCrops.oregano,
-			ppjaSummerCrops.perillaleaf,
-			ppjaSummerCrops.quinoa,
-			ppjaSummerCrops.raspberry,
-			ppjaSummerCrops.sugarcane,
-			ppjaSummerCrops.sulfurshelfmushroom,
-			ppjaSummerCrops.wasabiroot,
-			ppjaSummerCrops.zucchini
+			crops.ancientfruit
 		]
 	},
 	{
@@ -250,6 +203,92 @@ var seasons = [
 			ppjaSpringCrops.buckwheat,
 			ppjaSpringCrops.cactusflower,
 			ppjaSpringCrops.ginseng,
+		]
+	}
+];
+
+// define crops for the ppja crops and veggies mod
+var ppjaCropAndVeggiesSeasons = [
+	{
+		"name":"Spring",
+		"duration":28,
+		"crops":[
+			ppjaSpringCrops.cabbage,
+			ppjaSpringCrops.bamboo,
+			ppjaSpringCrops.basil,
+			ppjaSpringCrops.buckwheat,
+			ppjaSpringCrops.cactusflower,
+			ppjaSpringCrops.ginseng,
+			ppjaSpringCrops.licoriceroot,
+			ppjaSpringCrops.maguey,
+			ppjaSpringCrops.muskmellon,
+			ppjaSpringCrops.onion,
+			ppjaSpringCrops.parsley,
+			ppjaSpringCrops.passionfruit,
+			ppjaSpringCrops.rapeseedflower,
+			ppjaSpringCrops.redonion,
+			ppjaSpringCrops.shallot,
+			ppjaSpringCrops.shiitakemushroom,
+			ppjaSpringCrops.spinach,
+			ppjaSpringCrops.sugarbeet,
+			ppjaSpringCrops.sweetcanarymelon
+		]
+	},
+	{
+		"name":"Summer",
+		"duration":28,
+		"crops": [
+			ppjaSpringCrops.bamboo,
+			ppjaSpringCrops.cactusflower,
+			ppjaSpringCrops.maguey,
+			ppjaSpringCrops.ginseng,
+			ppjaSpringCrops.rapeseedflower,
+			ppjaSummerCrops.adzukibean,
+			ppjaSummerCrops.aloe,
+			ppjaSummerCrops.asparagus,
+			ppjaSummerCrops.blueagave,
+			ppjaSummerCrops.butternutsquash,
+			ppjaSummerCrops.cassava,
+			ppjaSummerCrops.chickpea,
+			ppjaSummerCrops.chives,
+			ppjaSummerCrops.cottonboll,
+			ppjaSummerCrops.cucumber,
+			ppjaSummerCrops.ginger,
+			ppjaSummerCrops.gooseberry,
+			ppjaSummerCrops.greenpeas,
+			ppjaSummerCrops.kiwi,
+			ppjaSummerCrops.lettuce,
+			ppjaSummerCrops.navybean,
+			ppjaSummerCrops.okra,
+			ppjaSummerCrops.oregano,
+			ppjaSummerCrops.perillaleaf,
+			ppjaSummerCrops.quinoa,
+			ppjaSummerCrops.raspberry,
+			ppjaSummerCrops.sugarcane,
+			ppjaSummerCrops.sulfurshelfmushroom,
+			ppjaSummerCrops.wasabiroot,
+			ppjaSummerCrops.zucchini
+		]
+	},
+	{
+		"name":"Fall",
+		"duration":28,
+		"crops": [
+			ppjaSummerCrops.zucchini
+		]
+	},
+	{
+		"name":"Winter",
+		"duration":28,
+		"crops": [
+			ppjaSummerCrops.zucchini
+		]
+	},
+	{
+		"name":"Greenhouse",
+		"duration":112,
+		"crops": [
+			ppjaSummerCrops.zucchini
 		]
 	}
 ];

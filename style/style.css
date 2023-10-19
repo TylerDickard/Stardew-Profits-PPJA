@@ -5,6 +5,9 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 }
+svg {
+	overflow-x: auto;
+}
 
 .title {
 	margin: auto;
