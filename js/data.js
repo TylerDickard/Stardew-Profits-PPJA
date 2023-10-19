@@ -274,7 +274,17 @@ var ppjaCropAndVeggiesSeasons = [
 		"name":"Fall",
 		"duration":28,
 		"crops": [
-			ppjaSummerCrops.zucchini
+			ppjaSpringCrops.cabbage,
+			ppjaSpringCrops.cactusflower,
+			ppjaSummerCrops.cottonboll,
+			ppjaSpringCrops.ginseng,
+			ppjaSummerCrops.kiwi,
+			ppjaSummerCrops.okra,
+			ppjaSpringCrops.shiitakemushroom,
+			ppjaSpringCrops.spinach,
+			ppjaSummerCrops.sulfurshelfmushroom,
+			ppjaFallCrops.barley,
+			ppjaFallCrops.bellpepper
 		]
 	},
 	{
