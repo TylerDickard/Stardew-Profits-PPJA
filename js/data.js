@@ -107,7 +107,13 @@ var seasons = [
 			ppjaSpringCrops.onion,
 			ppjaSpringCrops.parsley,
 			ppjaSpringCrops.passionfruit,
-			
+			ppjaSpringCrops.rapeseedflower,
+			ppjaSpringCrops.redonion,
+			ppjaSpringCrops.shallot,
+			ppjaSpringCrops.shiitakemushroom,
+			ppjaSpringCrops.spinach,
+			ppjaSpringCrops.sugarbeet,
+			ppjaSpringCrops.sweetcanarymelon
 		]
 	},
 	{

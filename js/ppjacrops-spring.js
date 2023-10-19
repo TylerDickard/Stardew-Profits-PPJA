@@ -41,6 +41,8 @@ var ppjaSpringCrops = {
         "extra": 3,
         "extraPerc": .5,
         "price": 55,
+        "jarType": "Pickles",
+        "kegType": "Juice"
         }
     },
     "basil": {
@@ -62,6 +64,8 @@ var ppjaSpringCrops = {
         "extra": 0,
         "extraPerc": 0,
         "price": 35,
+        "jarType": "Pickles",
+        "kegType": "Juice"
         }
     },
     "buckwheat": {
@@ -83,6 +87,8 @@ var ppjaSpringCrops = {
         "extra": 0,
         "extraPerc": 0,
         "price": 25,
+        "jarType": "Pickles",
+        "kegType": "Juice"
         }
     },
     "cactusflower": {
@@ -125,6 +131,8 @@ var ppjaSpringCrops = {
         "extra": 0,
         "extraPerc": 0.2,
         "price": 2000,
+        "jarType": "Pickles",
+        "kegType": "Juice"
         }
     },
     "licoriceroot": {
@@ -146,6 +154,8 @@ var ppjaSpringCrops = {
         "extra": 0,
         "extraPerc": 0,
         "price": 135,
+        "jarType": "Pickles",
+        "kegType": "Juice"
         }
     },
     "maguey": {
@@ -167,6 +177,8 @@ var ppjaSpringCrops = {
         "extra": 0,
         "extraPerc": 0,
         "price": 170,
+        "jarType": "Pickles",
+        "kegType": "Juice"
         }
     },
     "muskmellon": {
@@ -188,6 +200,8 @@ var ppjaSpringCrops = {
         "extra": 0,
         "extraPerc": 0,
         "price": 115,
+        "jarType": "Jelly",
+        "kegType": "Wine"
         }
     },
     "onion": {
@@ -209,6 +223,8 @@ var ppjaSpringCrops = {
         "extra": 0,
         "extraPerc": 0,
         "price": 115,
+        "jarType": "Pickles",
+        "kegType": "Juice"
         }
     },
     "parsley": {
@@ -230,6 +246,8 @@ var ppjaSpringCrops = {
         "extra": 0,
         "extraPerc": 0,
         "price": 45,
+        "jarType": "Pickles",
+        "kegType": "Juice"
         }
     },
     "passionfruit": {
@@ -251,153 +269,167 @@ var ppjaSpringCrops = {
         "extra": 1,
         "extraPerc": 0.1,
         "price": 95,
+        "jarType": "Jelly",
+        "kegType": "Wine"
         }
     },
     "rapeseedflower": {
-        "name": "Buckwheat",
+        "name": "Rapeseed Flower",
         "url": "https://mouseypounds.github.io/ppja-ref/crops.html",
-        "img": "buckwheat.png",
+        "img": "rapeseedflower.png",
         "seeds": {
-        "pierre": 10,
+        "pierre": 100,
         "joja": 0,
-        "special": 0,
-        "specialLoc": "",
+        "special": 100,
+        "specialLoc": "Pierre Year 3+",
         "specialUrl": ""
         },
         "growth": {
-        "initial": 4,
+        "initial": 8,
         "regrow": 0
         },
         "produce": {
-        "extra": 0,
+        "extra": 1,
         "extraPerc": 0,
-        "price": 25,
+        "price": 50,
         }
     },
     "redonion": {
-        "name": "Buckwheat",
+        "name": "Red Onion",
         "url": "https://mouseypounds.github.io/ppja-ref/crops.html",
-        "img": "buckwheat.png",
+        "img": "redonion.png",
         "seeds": {
-        "pierre": 10,
+        "pierre": 80,
         "joja": 0,
-        "special": 0,
-        "specialLoc": "",
+        "special": 80,
+        "specialLoc": "Pierre Year 3+",
         "specialUrl": ""
         },
         "growth": {
-        "initial": 4,
+        "initial": 8,
         "regrow": 0
         },
         "produce": {
         "extra": 0,
         "extraPerc": 0,
-        "price": 25,
+        "price": 115,
+        "jarType": "Pickles",
+        "kegType": "Juice"
         }
     },
     "shallot": {
-        "name": "Buckwheat",
+        "name": "Shallot",
         "url": "https://mouseypounds.github.io/ppja-ref/crops.html",
-        "img": "buckwheat.png",
+        "img": "shallot.png",
         "seeds": {
-        "pierre": 10,
+        "pierre": 80,
         "joja": 0,
-        "special": 0,
-        "specialLoc": "",
+        "special": 80,
+        "specialLoc": "Pierre Year 4+",
         "specialUrl": ""
         },
         "growth": {
-        "initial": 4,
+        "initial": 8,
         "regrow": 0
         },
         "produce": {
         "extra": 0,
         "extraPerc": 0,
-        "price": 25,
+        "price": 115,
+        "jarType": "Pickles",
+        "kegType": "Juice"
         }
     },
     "shiitakemushroom": {
-        "name": "Buckwheat",
+        "name": "Shiitake Mushroom",
         "url": "https://mouseypounds.github.io/ppja-ref/crops.html",
-        "img": "buckwheat.png",
+        "img": "shiitakemushroom.png",
         "seeds": {
-        "pierre": 10,
+        "pierre": 500,
         "joja": 0,
-        "special": 0,
-        "specialLoc": "",
+        "special": 500,
+        "specialLoc": "Pierre Year 4+",
         "specialUrl": ""
         },
         "growth": {
-        "initial": 4,
+        "initial": 10,
         "regrow": 0
         },
         "produce": {
-        "extra": 0,
-        "extraPerc": 0,
-        "price": 25,
+        "extra": 1,
+        "extraPerc": 0.1,
+        "price": 180,
+        "jarType": "Pickles",
+        "kegType": "Juice"
         }
     },
     "spinach": {
-        "name": "Buckwheat",
+        "name": "Spinach",
         "url": "https://mouseypounds.github.io/ppja-ref/crops.html",
-        "img": "buckwheat.png",
+        "img": "spinach.png",
         "seeds": {
-        "pierre": 10,
+        "pierre": 15,
         "joja": 0,
         "special": 0,
         "specialLoc": "",
         "specialUrl": ""
         },
         "growth": {
-        "initial": 4,
+        "initial": 3,
         "regrow": 0
         },
         "produce": {
         "extra": 0,
         "extraPerc": 0,
-        "price": 25,
+        "price": 35,
+        "jarType": "Pickles",
+        "kegType": "Juice"
         }
     },
     "sugarbeet": {
-        "name": "Buckwheat",
+        "name": "Sugar Beet",
         "url": "https://mouseypounds.github.io/ppja-ref/crops.html",
-        "img": "buckwheat.png",
+        "img": "sugarbeet.png",
         "seeds": {
-        "pierre": 10,
+        "pierre": 100,
         "joja": 0,
-        "special": 0,
-        "specialLoc": "",
+        "special": 100,
+        "specialLoc": "Pierre Year 2+",
         "specialUrl": ""
         },
         "growth": {
-        "initial": 4,
+        "initial": 8,
         "regrow": 0
         },
         "produce": {
         "extra": 0,
         "extraPerc": 0,
-        "price": 25,
+        "price": 180,
+        "jarType": "Pickles",
+        "kegType": "Juice"
         }
     },
     "sweetcanarymelon": {
-        "name": "Buckwheat",
+        "name": "Sweet Canary Melon",
         "url": "https://mouseypounds.github.io/ppja-ref/crops.html",
-        "img": "buckwheat.png",
+        "img": "sweetcanarymelon.png",
         "seeds": {
-        "pierre": 10,
+        "pierre": 450,
         "joja": 0,
-        "special": 0,
-        "specialLoc": "",
+        "special": 450,
+        "specialLoc": "Pierre Year 2+",
         "specialUrl": ""
         },
         "growth": {
-        "initial": 4,
-        "regrow": 0
+        "initial": 11,
+        "regrow": 4
         },
         "produce": {
         "extra": 0,
         "extraPerc": 0,
-        "price": 25,
+        "price": 225,
+        "jarType": "Jelly",
+        "kegType": "Wine"
         }
     }
 }
