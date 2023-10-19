@@ -4,6 +4,9 @@ Stardew Profits is a calculation and graphing tool designed to help the players 
 # Usage
 The tool is split up to two sections: graph box and options box. The options box lets the user quickly change the parameters which are then reflected on the graph.
 
+### Tyler's Addition
+The main addition to this is adding different mods to this project. There is a mod dropdown which allows you to select the profitability based on mods and their crops.
+
 ### Graph Box
 The graph box displays a live rendered graph based on the options that the user has set. The number of bars changes based on the set conditions (like different seasons). The profit in gold can be viewed on the side as a scale. The graph shows both profit and loss. Additionally, if the seed buying loss is selected, the loss will be shown in orange, and if fertilizer buying loss is selected, the loss will be shown in brown. Hovering the mouse over a crop will show a tooltip with information about profits, loss and more. Pressing on a crop will open the official Wiki page for that crop.
 
