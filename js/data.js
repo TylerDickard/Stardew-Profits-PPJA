@@ -94,7 +94,20 @@ var seasons = [
 			crops.bluejazz,
 			crops.tulip,
 			crops.ancientfruit,
-			crops.springseeds
+			crops.springseeds,
+			ppjaSpringCrops.cabbage,
+			ppjaSpringCrops.bamboo,
+			ppjaSpringCrops.basil,
+			ppjaSpringCrops.buckwheat,
+			ppjaSpringCrops.cactusflower,
+			ppjaSpringCrops.ginseng,
+			ppjaSpringCrops.licoriceroot,
+			ppjaSpringCrops.maguey,
+			ppjaSpringCrops.muskmellon,
+			ppjaSpringCrops.onion,
+			ppjaSpringCrops.parsley,
+			ppjaSpringCrops.passionfruit,
+			
 		]
 	},
 	{
@@ -196,7 +209,13 @@ var seasons = [
 			crops.sunflower,
 			crops.ancientfruit,
 			crops.cactusfruit,
-			crops.taroroot
+			crops.taroroot,
+			ppjaSpringCrops.cabbage,
+			ppjaSpringCrops.bamboo,
+			ppjaSpringCrops.basil,
+			ppjaSpringCrops.buckwheat,
+			ppjaSpringCrops.cactusflower,
+			ppjaSpringCrops.ginseng,
 		]
 	}
 ];
