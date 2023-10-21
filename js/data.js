@@ -284,7 +284,25 @@ var ppjaCropAndVeggiesSeasons = [
 			ppjaSpringCrops.spinach,
 			ppjaSummerCrops.sulfurshelfmushroom,
 			ppjaFallCrops.barley,
-			ppjaFallCrops.bellpepper
+			ppjaFallCrops.bellpepper,
+			ppjaFallCrops.blackberry,
+			ppjaFallCrops.broccoli,
+			ppjaFallCrops.carrot,
+			ppjaFallCrops.celery,
+			ppjaFallCrops.durum,
+			ppjaFallCrops.fennel,
+			ppjaFallCrops.habanero,
+			ppjaFallCrops.jalapeno,
+			ppjaFallCrops.kidneybean,
+			ppjaFallCrops.oat,
+			ppjaFallCrops.peanut,
+			ppjaFallCrops.rosemary,
+			ppjaFallCrops.sage,
+			ppjaFallCrops.soybean,
+			ppjaFallCrops.sweetpotato,
+			ppjaFallCrops.tabascopepper,
+			ppjaFallCrops.thyme,
+			ppjaFallCrops.watermelon
 		]
 	},
 	{
